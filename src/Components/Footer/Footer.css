@@ -1,0 +1,13 @@
+.footer {
+    font-size: 12px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.links:hover  {
+    text-decoration: underline;
+    /* background-color: aliceblue; */
+    color: red;
+}

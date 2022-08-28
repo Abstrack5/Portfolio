@@ -21,7 +21,7 @@ const ParticlesComponent = () => {
         options={{
           background: {
             color: {
-              value: "#",
+              value: "",
             },
           },
           fpsLimit: 120,
@@ -88,7 +88,7 @@ const ParticlesComponent = () => {
               value: { min: 1, max: 5 },
             },
           },
-          detectRetina: true,
+          // detectRetina: true,
         }}
       />
     </div>
