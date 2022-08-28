@@ -1,6 +1,6 @@
 import React from "react";
 import Particles from "../../Components/Particles";
-import TypewriterEffect from "../../Components/Typewriter";
+import TypewriterEffect from "../../Components/Typewriter/Typewriter";
 
 function Homepage() {
   return (

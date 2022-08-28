@@ -1,4 +1,4 @@
-// import "./App.css";
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navigation from "./Components/Navigation";
@@ -10,7 +10,7 @@ import Contact from "./Pages/Contact/Contact";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Router>
         <Navigation />
         <Routes>
@@ -20,7 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }
 
