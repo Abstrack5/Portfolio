@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function NavigationSetup() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" expand="md">
+      <Navbar bg="dark" variant="dark" expand="md" style={{zIndex:1}}>
         <Container>
           <Navbar.Brand as={Link} to="/">
             A
