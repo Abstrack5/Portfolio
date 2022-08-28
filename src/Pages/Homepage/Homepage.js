@@ -1,11 +1,16 @@
 import React from "react";
 import Particles from "../../Components/Particles";
+import TypewriterEffect from "../../Components/Typewriter";
 
 function Homepage() {
   return (
     <>
-      <Particles id="ts-particles" />
-      <h1 className="text-center">Homepage</h1>
+      <div>
+        <Particles id="ts-particles" />
+      </div>
+      <div>
+        <TypewriterEffect className="text-center" />
+      </div>
     </>
   );
 }
