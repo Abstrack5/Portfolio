@@ -11,7 +11,7 @@ function Footer() {
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
           &copy; {new Date().getFullYear()} Copyright:{" "}
-          <a className="links text-dark" href="https://github.com/abstrack5">
+          <a className="links text-dark" href="https://github.com/abstrack5" target="_blank">
             Armon Ahmadi
           </a>
         </div>
