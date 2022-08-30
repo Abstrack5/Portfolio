@@ -1,0 +1,35 @@
+.AboutMeHeader {
+    margin-top: 5em;
+}
+.AboutMeContainer {
+    padding-top: 3em;
+}
+
+img {
+    width: 25em;
+}
+
+.ImgBox {
+    border: 2px solid white
+}
+
+.AboutMeBox {
+    border: 2px solid white;
+    background-color: rgb(196, 195, 195);
+    background-image: url("../../images/miamiCity.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.AboutMeContent {
+    color: #36454F;
+}
+
+.AboutMeContentBox {
+    margin-top: 5em;
+    border: 1px solid  rgba(255, 255, 255, 0.333);
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+    font-weight: 600;
+}
+
