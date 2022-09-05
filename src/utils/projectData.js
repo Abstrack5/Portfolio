@@ -1,46 +1,43 @@
 // import images per project here
-import CoffeeBr from '../../src/images/coffe-br.png';
+import coffeeBr from '../images/coffee-br.png';
+import geniusWeather from '../images/genius-weather.jpeg';
+import gudEats from '../images/GüdEats-app-screenshot.jpeg';
+import homeBrew from '../images/homeBrew.PNG';
+import techTalk from '../images/techtalk.PNG';
 
 
-export const projectData = [
+const projectData = [
     {
         title:'Coffee <br>',
-        image: {CoffeeBr},
+        image: coffeeBr,
         description:'A user friendly app designed for coffee shops that need to manage that morning rush of caffeine-crazed orders.',
         website: 'https://limitless-everglades-24758.herokuapp.com/',
         github:'https://github.com/Abstrack5/Coffee-br'
     },
     {
         title:'',
-        image: '',
+        image: geniusWeather,
         description:'',
         website: '',
         github:''
     },
     {
         title:'',
-        image: '',
+        image: gudEats,
         description:'',
         website: '',
         github:''
     },
     {
         title:'',
-        image: '',
+        image: homeBrew,
         description:'',
         website: '',
         github:''
     },
     {
         title:'',
-        image: '',
-        description:'',
-        website: '',
-        github:''
-    },
-    {
-        title:'',
-        image: '',
+        image: techTalk,
         description:'',
         website: '',
         github:''
@@ -48,3 +45,5 @@ export const projectData = [
     
 
 ];
+
+export default projectData;

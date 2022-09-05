@@ -1,8 +1,10 @@
-.AboutMeHeader {
-    margin-top: 4em;
+.AboutContainer {
+    margin-top: 3rem;
+    padding: 3rem;
+
 }
 .AboutMeContainer {
-    padding-top: 3em;
+    padding-top: 3rem;
 }
 
 img {
@@ -26,7 +28,7 @@ img {
 }
 
 .AboutMeContentBox {
-    margin-top: 5em;
+    margin-top: 5rem;
     border: 1px solid  rgba(255, 255, 255, 0.333);
     background-color: rgba(255, 255, 255, 0.562);
     color: black;

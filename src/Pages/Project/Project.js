@@ -1,34 +1,31 @@
 import React from "react";
-import './Project.css';
+import "./Project.css";
+import projectData from "../../utils/projectData";
 
+import Container from 'react-bootstrap/Container';
 import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 
 function Project() {
+
+  const projectsMap = projectData.map((data, index) => {
+    return (
+      <Card key={index} id="cardContainer" className='d-flex justify-content-center align-items-center'>
+        <Image src={data.image}/>
+      </Card>
+    );
+  });
+
   return (
-    <>
+    <div className="portfolioMainContainer">
       <h1 className="text-center">Projects</h1>
-      <div className="d-flex justify-content-center">
-        <Row xs={1} md={3} lg={2} className="g-4">
-          {Array.from({ length: 6 }).map((_, idx) => (
-            <Col>
-              <Card className="card">
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
+      <Container style={{ padding: '2rem 0' }} >
+        <Row>
+          {projectsMap}
         </Row>
-      </div>
-    </>
+      </Container>
+    </div>
   );
 }
 

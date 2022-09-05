@@ -8,8 +8,8 @@ import Col from "react-bootstrap/Col";
 
 function About() {
   return (
-    <div className="container">
-      <h2 className="AboutMeHeader">About Me</h2>
+    <div className="AboutContainer">
+      <h1 className="AboutMeHeader">About Me</h1>
       <div className="AboutMeContainer row">
         <div className="row">
           <div className="ImgContainer col-sm-auto col-md col-lg">
