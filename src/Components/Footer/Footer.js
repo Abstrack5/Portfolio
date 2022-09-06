@@ -5,7 +5,7 @@ import { Container, Nav, Navbar, Image } from "react-bootstrap";
 function Footer() {
   return (
     <div className="">
-      <Nav bgColor="light" className="fixed-bottom footer">
+      <Nav bgcolor="light" className="fixed-bottom footer">
         <div
           className="text-center p-2"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
