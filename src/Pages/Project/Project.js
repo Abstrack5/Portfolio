@@ -20,25 +20,35 @@ function Project() {
     return (
       <Modal show={show} onHide={handleClose} centered size="md">
         <Modal.Header closeButton>
-          <Modal.Title>{data.title}</Modal.Title>
+          <Modal.Title className="text-center">{data.title}</Modal.Title>
         </Modal.Header>
-        <Modal.Body>{data.description}</Modal.Body>
+        <Modal.Body>
+          {data.description}
+          <p className="mt-2">
+            <strong>Technologies: </strong>
+            {data.technologies}
+          </p>
+        </Modal.Body>
         <Button
-        href={data.github}
-        target="_blank"
-        rel="noreferrer"
+          href={data.github}
+          target="_blank"
+          rel="noreferrer"
+          className="mx-5 mb-2"
+          variant="info"
         >
-        GitHub
-        </Button> 
+          GitHub
+        </Button>
         <Button
-        href={data.website}
-        target="_blank"
-        rel="noreferrer"
+          href={data.website}
+          target="_blank"
+          rel="noreferrer"
+          className="mx-5"
+          variant="dark"
         >
-        Website
+          Website
         </Button>
         <Modal.Footer>
-          <Button variant="danger" onClick={handleClose}>
+          <Button variant="outline-danger" onClick={handleClose}>
             Close
           </Button>
         </Modal.Footer>
@@ -51,10 +61,12 @@ function Project() {
       <Card
         key={index}
         id="cardContainer"
-        className="d-flex justify-content-center align-items-center"
+        className="d-flex justify-content-center align-items-center mb-5"
+        
       >
         <Card.Header>{e.title}</Card.Header>
-        <Image
+        {/* <Card.Body> */}
+        <Card.Img
           src={e.image}
           className="CardImage"
           onClick={() => {
@@ -63,7 +75,7 @@ function Project() {
               description: e.description,
               github: e.github,
               website: e.website,
-              tech: e.tech,
+              technologies: e.technologies,
             });
             {
               handleShow();
@@ -71,6 +83,7 @@ function Project() {
           }}
         />
         {ProjectDataModal(modalData)}
+        {/* </Card.Body> */}
       </Card>
     );
   });
@@ -78,7 +91,7 @@ function Project() {
   return (
     <div className="portfolioMainContainer">
       <h1 className="text-center">Projects</h1>
-      <Container style={{ padding: "2rem 0" }}>
+      <Container style={{ padding: "2rem 2rem" }}>
         <Row>{ProjectDataMapped}</Row>
       </Container>
     </div>

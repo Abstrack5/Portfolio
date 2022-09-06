@@ -7,7 +7,7 @@ function NavigationSetup() {
       <Navbar bg="dark" variant="dark" collapseOnSelect expand="md" style={{zIndex:1}}>
         <Container>
           <Navbar.Brand as={Link} to="/">
-            A
+            Armon Ahmadi
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
