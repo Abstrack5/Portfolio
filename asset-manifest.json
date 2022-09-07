@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e09e4d63.css",
-    "main.js": "/portfolio/static/js/main.dd694ee0.js",
-    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
-    "static/media/miamiCity.jpg": "/portfolio/static/media/miamiCity.dcbe74399386674f7cfb.jpg",
-    "static/media/genius-weather.jpeg": "/portfolio/static/media/genius-weather.06f24523017222b3d014.jpeg",
-    "static/media/headshot.jpg": "/portfolio/static/media/headshot.96d359175a861eb8cfbc.jpg",
-    "static/media/techtalk.PNG": "/portfolio/static/media/techtalk.9729ccaebc16b1d023e2.PNG",
-    "static/media/homeBrew.PNG": "/portfolio/static/media/homeBrew.fc26d81cab0c61895a74.PNG",
-    "static/media/GüdEats-app-screenshot.jpeg": "/portfolio/static/media/GüdEats-app-screenshot.412f7926c26f51ff6dc5.jpeg",
-    "static/media/coffee-br.png": "/portfolio/static/media/coffee-br.3e2b27d8331993a78055.png",
-    "index.html": "/portfolio/index.html",
-    "main.e09e4d63.css.map": "/portfolio/static/css/main.e09e4d63.css.map",
-    "main.dd694ee0.js.map": "/portfolio/static/js/main.dd694ee0.js.map",
-    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.bab1e2f9.css",
+    "main.js": "/static/js/main.8edf70eb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/miamiCity.jpg": "/static/media/miamiCity.dcbe74399386674f7cfb.jpg",
+    "static/media/genius-weather.jpeg": "/static/media/genius-weather.06f24523017222b3d014.jpeg",
+    "static/media/headshot.jpg": "/static/media/headshot.96d359175a861eb8cfbc.jpg",
+    "static/media/techtalk.PNG": "/static/media/techtalk.9729ccaebc16b1d023e2.PNG",
+    "static/media/homeBrew.PNG": "/static/media/homeBrew.fc26d81cab0c61895a74.PNG",
+    "static/media/GüdEats-app-screenshot.jpeg": "/static/media/GüdEats-app-screenshot.412f7926c26f51ff6dc5.jpeg",
+    "static/media/coffee-br.png": "/static/media/coffee-br.3e2b27d8331993a78055.png",
+    "index.html": "/index.html",
+    "main.bab1e2f9.css.map": "/static/css/main.bab1e2f9.css.map",
+    "main.8edf70eb.js.map": "/static/js/main.8edf70eb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e09e4d63.css",
-    "static/js/main.dd694ee0.js"
+    "static/css/main.bab1e2f9.css",
+    "static/js/main.8edf70eb.js"
   ]
 }
