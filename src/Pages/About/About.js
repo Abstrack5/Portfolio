@@ -8,7 +8,7 @@ import FormContainer from "../../Components/FormContainer";
 
 function About() {
   return (
-    <FormContainer className="AboutMainContainer">
+    <div className="AboutMainContainer">
       <h1 className="AboutMeHeader text-center">About Me</h1>
       <div className="AboutMeContainer row">
         <div className="row">
@@ -39,7 +39,7 @@ function About() {
           </div>
         </div>
       </div>
-    </FormContainer>
+    </div>
   );
 }
 
