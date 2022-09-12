@@ -2,14 +2,14 @@ import React from "react";
 import "./About.css";
 import HeadshotPic from "../../images/headshot.jpg";
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+
+import FormContainer from "../../Components/FormContainer";
+
 
 function About() {
   return (
-    <div className="AboutContainer">
-      <h1 className="AboutMeHeader">About Me</h1>
+    <FormContainer className="AboutMainContainer">
+      <h1 className="AboutMeHeader text-center">About Me</h1>
       <div className="AboutMeContainer row">
         <div className="row">
           <div className="ImgContainer col-sm-auto col-md col-lg">
@@ -39,7 +39,7 @@ function About() {
           </div>
         </div>
       </div>
-    </div>
+    </FormContainer>
   );
 }
 
