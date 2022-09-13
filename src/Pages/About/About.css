@@ -16,7 +16,12 @@ img {
 .ImgBox {
     border: 2px solid white;
     box-shadow: 3px 3px 30px rgb(124, 122, 122);
+    /* margin-top: 0.5rem; */
     /* border-radius: 50px; */
+}
+
+.ImgContainer {
+    margin-top: 1rem;
 }
 
 .AboutMeBox {

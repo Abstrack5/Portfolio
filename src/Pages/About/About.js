@@ -11,7 +11,7 @@ function About() {
     <div className="AboutMainContainer">
       <h1 className="AboutMeHeader text-center"> &lt;About Me /&gt; </h1>
       <FormContainer className="AboutMeContainer row">
-        <div className="row">
+        <div className="row col-lg">
           <div className="ImgContainer col-lg my-3">
             <img
               src={HeadshotPic}
