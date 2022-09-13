@@ -6,25 +6,25 @@ function NavigationSetup() {
     <>
       <Navbar collapseOnSelect bg="dark" variant="dark"  expand="lg" style={{zIndex:1}}>
         <Container>
-          <Navbar.Brand eventKey="1" as={Link} to="/">
+          <Navbar.Brand eventkey="1" as={Link} to="/">
             Armon Ahmadi
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav >
-              <Nav.Link eventKey="2" as={Link} to="/">
+              <Nav.Link eventkey="2" as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link eventKey="3" as={Link} to="/about">
+              <Nav.Link eventkey="3" as={Link} to="/about">
                 About
               </Nav.Link>
-              <Nav.Link eventKey="4" as={Link} to="/education">
+              <Nav.Link eventkey="4" as={Link} to="/resume">
                 Resume
               </Nav.Link>
-              <Nav.Link eventKey="5" as={Link} to="/projects">
+              <Nav.Link eventkey="5" as={Link} to="/projects">
                 Projects
               </Nav.Link>
-              <Nav.Link eventKey="6"as={Link} to="/contact">
+              <Nav.Link eventkey="6"as={Link} to="/contact">
                 Contact
               </Nav.Link>
             </Nav>

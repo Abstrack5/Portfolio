@@ -90,7 +90,7 @@ function Project() {
 
   return (
     <div className="portfolioMainContainer">
-      <h1 className="text-center">Projects</h1>
+      <h1 className="text-center">&lt;My projects /&gt;</h1>
       <Container style={{ padding: "2rem 2rem" }}>
         <Row>{ProjectDataMapped}</Row>
       </Container>

@@ -33,7 +33,7 @@ function Contact() {
 
   return (
     <section className="ContactMainContainer">
-      <h1 className="Contact-title mb-3">Contact Me</h1>
+      <h1 className="Contact-title mb-3"> &lt;Contact Me /&gt;</h1>
       <Form ref={form} onSubmit={sendEmail} className="ContactForm">
         <Row className="justify-content-md-center mb-3">
           <Form.Group className="mb-3" as={Col} md="4" lg="3" xl="3">
