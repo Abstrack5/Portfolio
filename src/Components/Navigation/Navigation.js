@@ -4,24 +4,27 @@ import { Link } from "react-router-dom";
 function NavigationSetup() {
   return (
     <>
-      <Navbar bg="dark" variant="dark" collapseOnSelect expand="md" style={{zIndex:1}}>
+      <Navbar collapseOnSelect bg="dark" variant="dark"  expand="lg" style={{zIndex:1}}>
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand eventKey="1" as={Link} to="/">
             Armon Ahmadi
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
             <Nav >
-              <Nav.Link as={Link} to="/">
+              <Nav.Link eventKey="2" as={Link} to="/">
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/about">
+              <Nav.Link eventKey="3" as={Link} to="/about">
                 About
               </Nav.Link>
-              <Nav.Link as={Link} to="/projects">
+              <Nav.Link eventKey="4" as={Link} to="/education">
+                Resume
+              </Nav.Link>
+              <Nav.Link eventKey="5" as={Link} to="/projects">
                 Projects
               </Nav.Link>
-              <Nav.Link as={Link} to="/contact">
+              <Nav.Link eventKey="6"as={Link} to="/contact">
                 Contact
               </Nav.Link>
             </Nav>

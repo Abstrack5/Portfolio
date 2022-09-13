@@ -23,7 +23,7 @@ function About() {
             <div className="AboutMeContentBox my-5">
               <p className="AboutMeContent pt-3">
                 Hello! My name is Armon Ahmadi and I am excited you are here!
-                So about me, i am half Iranian and half Guyanese. 
+                So about me, I am half Iranian and half Guyanese. 
                 I was born and raised in Miami my entire life, and I wouldnt have 
                 it any other way!
                 </p>
@@ -34,6 +34,11 @@ function About() {
                 so I stumbled upon freecodecamp.org, and gave it a shot. And I fell in love with
                 coding ever since!
               </p>
+              <p>
+                Now I am a Full Stack Web Developer studying, practicing and working on getting
+                better every day. 
+              </p>
+              
             </div>
           </div>
         </div>
