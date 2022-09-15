@@ -1,29 +1,60 @@
-// need to find icons package to import here
+import {SiHtml5} from "react-icons/si";
+import {SiCss3} from "react-icons/si";
+import {SiJavascript} from "react-icons/si";
+import {SiMongodb} from "react-icons/si";
+import {SiExpress} from "react-icons/si";
+import {SiReact} from "react-icons/si";
+import {DiNodejs} from "react-icons/di";
+import {SiGraphql} from "react-icons/si";
+import {SiMysql} from "react-icons/si";
+import {SiBootstrap} from "react-icons/si";
+import {SiTailwindcss} from "react-icons/si";
+
 
 export const technologies = [
     {
-        name:''
+        name:'HTML',
+        icon: SiHtml5,
     },
     {
-        name:''
+        name:'CSS',
+        icon: SiCss3,
     },
     {
-        name:''
+        name:'JavaScript',
+        icon: SiJavascript,
     },
     {
-        name:''
+        name:'MongoDB',
+        icon: SiMongodb,
     },
     {
-        name:''
+        name:'ExpressJS',
+        icon: SiExpress,
     },
     {
-        name:''
+        name:'React',
+        icon: SiReact,
     },
     {
-        name:''
+        name:'NodeJS',
+        icon: DiNodejs,
     },
     {
-        name:''
+        name:'GraphQL',
+        icon: SiGraphql,
+    },
+    {
+        name:'MySQL2',
+        icon: SiMysql,
+    },
+    {
+        name:'Bootstrap',
+        icon: SiBootstrap,
+    },
+    {
+        name:'Tailwind',
+        icon: SiTailwindcss,
     },
 
 ];
