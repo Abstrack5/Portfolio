@@ -55,7 +55,7 @@ img {
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 2rem; */
+    /* padding: 0 1rem; */
 }
 
 .TechCard {

@@ -9,6 +9,7 @@ import {SiGraphql} from "react-icons/si";
 import {SiMysql} from "react-icons/si";
 import {SiBootstrap} from "react-icons/si";
 import {SiTailwindcss} from "react-icons/si";
+import {SiGithub} from "react-icons/si";
 
 
 const technologies = [
@@ -23,6 +24,10 @@ const technologies = [
     {
         name:'JavaScript',
         iconImg: SiJavascript,
+    },
+    {
+        name:'GitHub',
+        iconImg: SiGithub,
     },
     {
         name:'MongoDB',
