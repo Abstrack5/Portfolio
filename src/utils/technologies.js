@@ -11,50 +11,52 @@ import {SiBootstrap} from "react-icons/si";
 import {SiTailwindcss} from "react-icons/si";
 
 
-export const technologies = [
+const technologies = [
     {
         name:'HTML',
-        icon: SiHtml5,
+        iconImg: SiHtml5,
     },
     {
         name:'CSS',
-        icon: SiCss3,
+        iconImg: SiCss3,
     },
     {
         name:'JavaScript',
-        icon: SiJavascript,
+        iconImg: SiJavascript,
     },
     {
         name:'MongoDB',
-        icon: SiMongodb,
+        iconImg: SiMongodb,
     },
     {
         name:'ExpressJS',
-        icon: SiExpress,
+        iconImg: SiExpress,
     },
     {
         name:'React',
-        icon: SiReact,
+        iconImg: SiReact,
     },
     {
         name:'NodeJS',
-        icon: DiNodejs,
+        iconImg: DiNodejs,
     },
     {
         name:'GraphQL',
-        icon: SiGraphql,
+        iconImg: SiGraphql,
     },
     {
         name:'MySQL2',
-        icon: SiMysql,
+        iconImg: SiMysql,
     },
     {
         name:'Bootstrap',
-        icon: SiBootstrap,
+        iconImg: SiBootstrap,
     },
     {
         name:'Tailwind',
-        icon: SiTailwindcss,
+        iconImg: SiTailwindcss,
     },
 
 ];
+
+export default technologies;

@@ -5,6 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+
 import SchoolIcon from "@mui/icons-material/School";
 import WorkIcon from "@mui/icons-material/Work";
 import StarIcon from "@mui/icons-material/Star";
@@ -12,6 +13,8 @@ import StarIcon from "@mui/icons-material/Star";
 import "./Resume.css";
 
 function Resume() {
+  
+
   return (
     <div className="ResumeMainContainer">
       <h1 className="text-center">&lt;Resume /&gt;</h1>
@@ -108,6 +111,7 @@ function Resume() {
           icon={<StarIcon />}
         />
       </VerticalTimeline>
+      
     </div>
   );
 }
